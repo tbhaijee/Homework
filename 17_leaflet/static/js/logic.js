@@ -34,7 +34,7 @@ L.control.layers(typeofMaps, overLays).addTo(myMap)
 
 // Load in geojson data
 var geoData = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-var boundary = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json"
+var boundary = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json"
 
 console.log(geoData);
 
